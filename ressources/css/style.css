@@ -88,3 +88,40 @@ nav {
 	font-weight: bold;
 	display: block;
 }
+
+/*Location section*/
+#locations {
+	background-image: url("../img/img-locations-background.jpg");
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.locations {
+	width: 1200px;
+	margin: auto;
+}
+
+.location {
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px 20px;
+	opacity: 1;
+	padding: 10px;
+	width: 300px;
+}
+
+/*Contact section*/
+#contact {
+	text-align: center;
+	height: 200px;
+}
+
+/*Footer section*/
+footer {
+	margin-left: 20px;
+}
